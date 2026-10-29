@@ -51,3 +51,5 @@ Naming the value schema as a component (`additionalProperties: { $ref: "#/compon
 - OpenAPI Generator 7.26.0 (the latest release; the templates are unchanged on master)
 - Kotlin 2.4.21, kotlinx.serialization 1.12.0, Gradle 9.8.2, JDK 25
 - macOS 27
+
+Reported upstream: https://github.com/OpenAPITools/openapi-generator/issues/25453
