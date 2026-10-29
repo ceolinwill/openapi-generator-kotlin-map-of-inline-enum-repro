@@ -15,7 +15,7 @@ Output (stack trace trimmed):
 ```text
 Exception in thread "main" kotlinx.serialization.json.JsonDecodingException: Unexpected JSON token at offset 16: Expected beginning of the string, but got { at path: $.lessonStatus
 	at repro.models.Today$$serializer.deserialize(Today.kt:36)
-	at repro.app.MainKt.main(Main.kt:7)
+	at repro.app.MainKt.main(Main.kt:10)
 ```
 
 The generated model, `build/generated/src/main/kotlin/repro/models/Today.kt`:
